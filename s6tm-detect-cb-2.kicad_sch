@@ -16704,7 +16704,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "GLCS:BatteryHolder_Q&J_CR2032-BS-6-1"
 			(at 26.67 35.306 90)
 			(hide yes)
 			(show_name no)
