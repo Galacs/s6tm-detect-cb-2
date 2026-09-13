@@ -14344,7 +14344,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C2045043"
+		(property "JLCPCB Part #" "C89446"
 			(at 129.54 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -14366,7 +14366,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "TFM201610ALC-R47MTAA"
+		(property "Manufacturer Part Number" "TFM201610GHM-R47MTAA"
 			(at 129.54 172.72 90)
 			(hide yes)
 			(show_name no)
