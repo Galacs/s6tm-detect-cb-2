@@ -3056,7 +3056,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 106.68) (xy 217.17 107.95)
+			(xy 219.71 106.68) (xy 219.71 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3333,6 +3333,16 @@
 			(type default)
 		)
 		(uuid "ae64690e-6d3a-4865-9b49-ad86fc184231")
+	)
+	(wire
+		(pts
+			(xy 219.71 107.95) (xy 217.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1219669-3577-4469-8835-c565c99928b6")
 	)
 	(wire
 		(pts
@@ -4566,7 +4576,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 217.17 106.68 0)
+		(at 219.71 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4576,7 +4586,7 @@
 		(dnp no)
 		(uuid "331cb799-8a1d-4221-93d5-17219d9daad2")
 		(property "Reference" "#PWR029"
-			(at 217.17 110.49 0)
+			(at 219.71 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4587,7 +4597,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 213.106 104.648 0)
+			(at 215.646 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4597,7 +4607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 106.68 0)
+			(at 219.71 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4608,7 +4618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 106.68 0)
+			(at 219.71 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4619,7 +4629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 217.17 106.68 0)
+			(at 219.71 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
