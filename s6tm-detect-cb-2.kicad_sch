@@ -5,6 +5,193 @@
 	(uuid "f4a18219-a653-4da9-9eb6-662d05c28432")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Analog_Switch:MAX40200AUK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MAX40200AUK"
+				(at 7.62 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ideal Diode, Ultra-Low Voltage Drop, 1.5-5.5V, 1A, SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "current switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MAX40200AUK_1_1"
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -5667,7 +5854,7 @@
 	)
 	(rectangle
 		(start 15.24 149.86)
-		(end 72.39 195.58)
+		(end 87.63 195.58)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5952,13 +6139,19 @@
 		(uuid "38edb3d3-b32c-4a72-881a-cd27678c99b7")
 	)
 	(junction
+		(at 59.69 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51239b98-9c4b-4a47-b127-d15983a77113")
+	)
+	(junction
 		(at 106.68 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5220dd43-cbac-4d02-8eb3-96925f93d23c")
 	)
 	(junction
-		(at 66.04 160.02)
+		(at 82.55 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "565fe9f5-e769-4725-b299-875470b70aca")
@@ -6333,7 +6526,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 160.02) (xy 66.04 160.02)
+			(xy 81.28 160.02) (xy 82.55 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6600,6 +6793,16 @@
 			(type default)
 		)
 		(uuid "4cad212c-7397-4901-8165-431d1bc8744f")
+	)
+	(wire
+		(pts
+			(xy 60.96 165.1) (xy 59.69 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eda8ebf-d0eb-4937-9134-c218cfceb0d9")
 	)
 	(wire
 		(pts
@@ -7083,7 +7286,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 160.02) (xy 67.31 160.02)
+			(xy 82.55 160.02) (xy 83.82 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7183,16 +7386,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 160.02) (xy 55.88 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91cb8dd9-e381-4056-be99-d8d248c377c7")
-	)
-	(wire
-		(pts
 			(xy 97.79 49.53) (xy 100.33 49.53)
 		)
 		(stroke
@@ -7273,13 +7466,23 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 158.75) (xy 67.31 160.02)
+			(xy 83.82 158.75) (xy 83.82 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9b9c6ade-bbd5-479d-b9b1-a082ce516183")
+	)
+	(wire
+		(pts
+			(xy 55.88 160.02) (xy 59.69 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf89443-9e51-4006-bf77-1022f96d2c11")
 	)
 	(wire
 		(pts
@@ -7290,6 +7493,16 @@
 			(type default)
 		)
 		(uuid "9c34b48b-d0e1-42cd-b7f0-593bb8500ab5")
+	)
+	(wire
+		(pts
+			(xy 71.12 170.18) (xy 71.12 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec79b2c-3eb8-45b4-9e5d-7f886d4c5e13")
 	)
 	(wire
 		(pts
@@ -7350,6 +7563,16 @@
 			(type default)
 		)
 		(uuid "a79516ab-958c-4cb4-84f4-40668aeea756")
+	)
+	(wire
+		(pts
+			(xy 59.69 160.02) (xy 59.69 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa614add-c459-4eeb-927c-0110fcbaaa7b")
 	)
 	(wire
 		(pts
@@ -7770,6 +7993,16 @@
 			(type default)
 		)
 		(uuid "ee21c807-ba28-4d86-8283-b60b16b75418")
+	)
+	(wire
+		(pts
+			(xy 59.69 160.02) (xy 60.96 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef397f0-b3b5-4ad1-a88b-1b594b13408e")
 	)
 	(wire
 		(pts
@@ -8294,6 +8527,138 @@
 			(project "s6tm-detect-cb-2"
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432"
 					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:MAX40200AUK")
+		(at 71.12 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01d8548d-85ff-4313-aa3c-e895e00cb25f")
+		(property "Reference" "U1"
+			(at 70.866 153.162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX40203"
+			(at 70.866 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 71.12 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf"
+			(at 71.12 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ideal Diode, Ultra-Low Voltage Drop, 1.5-5.5V, 1A, SOT-23-5"
+			(at 71.12 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "X"
+			(at 71.12 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2653639"
+			(at 71.12 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Maxim"
+			(at 71.12 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MAX40203AUK+T"
+			(at 71.12 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eb08e373-d545-4aec-beb4-27e176b7a99e")
+		)
+		(pin "1"
+			(uuid "c1fc6e63-7005-47f6-aa89-155759545a3a")
+		)
+		(pin "5"
+			(uuid "c48d953a-7c01-4721-8d7e-32ca9de2e670")
+		)
+		(pin "3"
+			(uuid "b4184b8d-d0ba-4855-8c26-cf8a122ae358")
+		)
+		(pin "4"
+			(uuid "bce46e08-37a9-48ae-8194-b8cbdabbe5e4")
+		)
+		(instances
+			(project "s6tm-detect-cb-2"
+				(path "/f4a18219-a653-4da9-9eb6-662d05c28432"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10529,6 +10894,85 @@
 			(project "s6tm-detect-cb-2"
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2fe2a498-8c78-489f-b4e2-9c86c7966749")
+		(property "Reference" "#PWR042"
+			(at 71.12 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.898 173.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2841aca2-bf5f-4950-bd6f-724bc941fec2")
+		)
+		(instances
+			(project "s6tm-detect-cb-2"
+				(path "/f4a18219-a653-4da9-9eb6-662d05c28432"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -13614,7 +14058,7 @@
 		(dnp no)
 		(uuid "8361ff02-c482-4e78-8230-6e5a38adfbaf")
 		(property "Reference" "D4"
-			(at 58.166 164.846 90)
+			(at 52.578 162.306 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13931,7 +14375,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 66.04 160.02 180)
+		(at 82.55 160.02 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13942,7 +14386,7 @@
 		(fields_autoplaced yes)
 		(uuid "86ea648d-a010-48b8-9deb-a18976b98e33")
 		(property "Reference" "#FLG02"
-			(at 66.04 161.925 0)
+			(at 82.55 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13953,7 +14397,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 66.04 165.1 0)
+			(at 82.55 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13964,7 +14408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 160.02 0)
+			(at 82.55 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13975,7 +14419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 160.02 0)
+			(at 82.55 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13986,7 +14430,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 66.04 160.02 0)
+			(at 82.55 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16840,7 +17284,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 67.31 158.75 0)
+		(at 83.82 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16850,7 +17294,7 @@
 		(dnp no)
 		(uuid "dd0de18f-2ba5-4b45-9621-506a1672dd06")
 		(property "Reference" "#PWR021"
-			(at 67.31 162.56 0)
+			(at 83.82 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16861,7 +17305,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 66.548 154.432 0)
+			(at 83.058 154.432 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16871,7 +17315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 158.75 0)
+			(at 83.82 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16882,7 +17326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 158.75 0)
+			(at 83.82 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16893,7 +17337,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 67.31 158.75 0)
+			(at 83.82 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
