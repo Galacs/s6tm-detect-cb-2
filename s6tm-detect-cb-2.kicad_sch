@@ -16704,7 +16704,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLCS:BatteryHolder_Q&J_CR2032-BS-6-1"
+		(property "Footprint" "GLCS:BatteryHolder_MYOUNG_BS-08-B2AA016"
 			(at 26.67 35.306 90)
 			(hide yes)
 			(show_name no)
@@ -16760,6 +16760,50 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
+			(at 26.67 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "X"
+			(at 26.67 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MYOUNG"
+			(at 26.67 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "BS-08-B2AA016"
+			(at 26.67 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C964792"
 			(at 26.67 36.83 0)
 			(hide yes)
 			(show_name no)
