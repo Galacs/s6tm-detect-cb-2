@@ -5,6 +5,129 @@
 	(uuid "d7b7da12-904f-4ca1-a04f-3523fdd12c21")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -2839,6 +2962,18 @@
 		(uuid "5a0e158a-cfb8-48b7-86c1-e2ce34167349")
 	)
 	(junction
+		(at 137.16 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ded4bd0-63a6-4e93-a84c-f95e7d88ff5f")
+	)
+	(junction
+		(at 147.32 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "674f646b-164c-4a71-b6c8-097ed8c34237")
+	)
+	(junction
 		(at 111.76 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2861,6 +2996,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab36e697-2f57-4112-807c-468651d9ba4b")
+	)
+	(junction
+		(at 199.39 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5fbc242-6c28-4f35-b3d3-fc3b7acb2405")
 	)
 	(junction
 		(at 107.95 123.19)
@@ -3122,7 +3263,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 78.74) (xy 147.32 107.95)
+			(xy 147.32 78.74) (xy 147.32 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3202,13 +3343,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 78.74) (xy 124.46 78.74)
+			(xy 104.14 78.74) (xy 123.19 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5f09461e-d46f-4974-8903-742384655f22")
+	)
+	(wire
+		(pts
+			(xy 199.39 107.95) (xy 203.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "633865ee-904e-4323-a007-ad4f5eede151")
 	)
 	(wire
 		(pts
@@ -3229,6 +3380,16 @@
 			(type default)
 		)
 		(uuid "6911426e-5216-4eea-822f-72de5f85f218")
+	)
+	(wire
+		(pts
+			(xy 137.16 81.28) (xy 135.89 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e6c4de0-38fd-4d68-ab99-fe43c46c3c52")
 	)
 	(wire
 		(pts
@@ -3312,7 +3473,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 78.74) (xy 151.13 78.74)
+			(xy 135.89 78.74) (xy 151.13 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3752,7 +3913,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 107.95) (xy 203.2 107.95)
+			(xy 195.58 107.95) (xy 199.39 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3829,6 +3990,16 @@
 			(type default)
 		)
 		(uuid "f7da93aa-a71d-4319-9ac9-0934b1eb809d")
+	)
+	(wire
+		(pts
+			(xy 147.32 87.63) (xy 147.32 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f99b6d0e-d6c9-40be-84b3-076f2208c757")
 	)
 	(label "CANL"
 		(at 74.93 76.2 0)
@@ -4281,6 +4452,85 @@
 			(project "s6tm-detect-cb-2"
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 199.39 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "073f6245-8cdb-48d1-97e2-3afc70da80c7")
+		(property "Reference" "TP8"
+			(at 200.914 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 201.93 105.9179 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 204.47 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 199.39 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b6bf97f-ae78-4962-a680-d75bb09a758e")
+		)
+		(instances
+			(project "s6tm-detect-cb-2"
+				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -6082,6 +6332,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 137.16 81.28 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57a8c95a-a925-443c-8279-8bfe94cd1fdf")
+		(property "Reference" "TP7"
+			(at 139.192 87.122 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 134.62 83.3121 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 132.08 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 137.16 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5f6da78-238a-4659-b140-e2f726da1f01")
+		)
+		(instances
+			(project "s6tm-detect-cb-2"
+				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 135.89 0)
 		(mirror y)
@@ -6794,6 +7123,86 @@
 			(project "s6tm-detect-cb-2"
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 147.32 87.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96561feb-ba4e-454c-bb13-cb60dc75e677")
+		(property "Reference" "TP6"
+			(at 152.4 87.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 149.3521 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 147.32 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 147.32 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b82c0aff-9890-47f7-9c9f-a8aa92648cc2")
+		)
+		(instances
+			(project "s6tm-detect-cb-2"
+				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -8158,7 +8567,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 76.2)
+		(at 123.19 76.2)
 		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8174,7 +8583,7 @@
 		)
 		(uuid "7554ad60-3936-47eb-9d6b-43a6f6ab1674")
 		(property "Sheetname" "Efuse"
-			(at 124.46 75.4884 0)
+			(at 123.19 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8185,7 +8594,7 @@
 			)
 		)
 		(property "Sheetfile" "efuse.kicad_sch"
-			(at 124.46 84.4046 0)
+			(at 123.19 84.4046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8197,7 +8606,7 @@
 			)
 		)
 		(pin "+5V" output
-			(at 137.16 78.74 0)
+			(at 135.89 78.74 0)
 			(uuid "ea9e3392-1a66-4aae-8a70-80fce634690d")
 			(effects
 				(font
@@ -8207,7 +8616,7 @@
 			)
 		)
 		(pin "+VIN" input
-			(at 124.46 78.74 180)
+			(at 123.19 78.74 180)
 			(uuid "99f3a04e-f0fc-4fc9-ab7c-c6a958d09190")
 			(effects
 				(font
@@ -8217,7 +8626,7 @@
 			)
 		)
 		(pin "ILM" output
-			(at 137.16 81.28 0)
+			(at 135.89 81.28 0)
 			(uuid "82100425-a7ac-43d6-9feb-946a0a21e22a")
 			(effects
 				(font
