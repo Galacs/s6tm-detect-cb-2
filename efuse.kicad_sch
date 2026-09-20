@@ -1809,10 +1809,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "#PWR081")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "#PWR034")
 					(unit 1)
@@ -1961,10 +1957,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "R18")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "R12")
 					(unit 1)
@@ -2112,10 +2104,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "R19")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "R2")
 					(unit 1)
@@ -2263,10 +2251,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "R16")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "R10")
 					(unit 1)
@@ -2346,10 +2330,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "#PWR086")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "#PWR058")
 					(unit 1)
@@ -2498,10 +2478,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "R15")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "R13")
 					(unit 1)
@@ -2581,10 +2557,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "#PWR082")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "#PWR045")
 					(unit 1)
@@ -2730,10 +2702,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "C27")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "C24")
 					(unit 1)
@@ -2813,10 +2781,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "#FLG07")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "#FLG06")
 					(unit 1)
@@ -2896,10 +2860,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "#PWR084")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "#PWR054")
 					(unit 1)
@@ -3048,10 +3008,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "C26")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "C22")
 					(unit 1)
@@ -3131,10 +3087,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "#PWR083")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "#PWR048")
 					(unit 1)
@@ -3282,10 +3234,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "C29")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "C25")
 					(unit 1)
@@ -3365,10 +3313,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "#PWR044")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "#PWR09")
 					(unit 1)
@@ -3448,10 +3392,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "#PWR069")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "#PWR032")
 					(unit 1)
@@ -3600,10 +3540,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "C28")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "C23")
 					(unit 1)
@@ -3681,10 +3617,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "#PWR085")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "#PWR055")
 					(unit 1)
@@ -3855,10 +3787,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "U10")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "U9")
 					(unit 1)
@@ -4017,10 +3945,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "D9")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "D5")
 					(unit 1)
@@ -4167,10 +4091,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "R17")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "R11")
 					(unit 1)
@@ -4320,10 +4240,6 @@
 		)
 		(instances
 			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/6e2404b8-a88d-4310-8201-9ab9dfb40b54"
-					(reference "R14")
-					(unit 1)
-				)
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a/7554ad60-3936-47eb-9d6b-43a6f6ab1674"
 					(reference "R1")
 					(unit 1)

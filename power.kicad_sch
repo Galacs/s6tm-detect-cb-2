@@ -1190,6 +1190,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_TVS"
 			(pin_numbers
 				(hide yes)
@@ -2914,12 +3080,6 @@
 		(uuid "071397ef-ecc1-4034-bde5-69e7957d9481")
 	)
 	(junction
-		(at 147.32 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11705ff5-b9c1-447e-94a1-3935a72cebfd")
-	)
-	(junction
 		(at 147.32 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2972,12 +3132,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "674f646b-164c-4a71-b6c8-097ed8c34237")
-	)
-	(junction
-		(at 111.76 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8387e824-b805-48b7-bf8c-c39b9eb9eea9")
 	)
 	(junction
 		(at 99.06 123.19)
@@ -3034,6 +3188,12 @@
 		(uuid "cdfc295f-9cd6-41a3-80e4-ef687783f0d5")
 	)
 	(junction
+		(at 111.76 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d181b94b-c092-4363-8646-f03b95393717")
+	)
+	(junction
 		(at 99.06 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3044,12 +3204,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dac2fdb8-f78f-4d38-b057-a34bfaef1e64")
-	)
-	(junction
-		(at 160.02 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1f65d71-de63-4618-9550-35568f25ea27")
 	)
 	(junction
 		(at 203.2 107.95)
@@ -3070,6 +3224,12 @@
 		(uuid "f0cab3b7-82de-472a-9c5a-945e9fb0d222")
 	)
 	(junction
+		(at 147.32 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4d07e74-083c-4516-bca5-e890cbebd1b4")
+	)
+	(junction
 		(at 111.76 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3087,19 +3247,15 @@
 		(color 0 0 0 0)
 		(uuid "f67db068-8d5c-4827-95de-c2987de14bc1")
 	)
+	(junction
+		(at 160.02 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f992040f-9ac4-4f72-bb08-e504f199ae10")
+	)
 	(no_connect
 		(at 167.64 118.11)
 		(uuid "2768f01b-4ce6-45b4-b226-567898b5dcab")
-	)
-	(wire
-		(pts
-			(xy 111.76 107.95) (xy 124.46 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "045f28a4-21b6-41f1-9741-c06eb32fecb1")
 	)
 	(wire
 		(pts
@@ -3193,16 +3349,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 107.95) (xy 160.02 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27e58177-cb14-451d-9ba4-43d019225077")
-	)
-	(wire
-		(pts
 			(xy 101.6 68.58) (xy 101.6 76.2)
 		)
 		(stroke
@@ -3290,16 +3436,6 @@
 			(type default)
 		)
 		(uuid "42719da6-a486-48d4-a3e2-227d78d5ecbb")
-	)
-	(wire
-		(pts
-			(xy 138.43 110.49) (xy 137.16 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45892b21-2a6b-40fa-b168-e65b2ac53163")
 	)
 	(wire
 		(pts
@@ -3543,6 +3679,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 107.95) (xy 128.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d251dd7-b455-433a-b6f4-d343920d7259")
+	)
+	(wire
+		(pts
 			(xy 106.68 115.57) (xy 105.41 115.57)
 		)
 		(stroke
@@ -3670,6 +3816,16 @@
 			(type default)
 		)
 		(uuid "b1219669-3577-4469-8835-c565c99928b6")
+	)
+	(wire
+		(pts
+			(xy 147.32 107.95) (xy 160.02 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b25586ae-e3f2-4729-9d58-7c59bbf15611")
 	)
 	(wire
 		(pts
@@ -3883,6 +4039,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 107.95) (xy 147.32 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6075ecb-914a-4ae6-ab83-583b554cfe45")
+	)
+	(wire
+		(pts
 			(xy 214.63 119.38) (xy 214.63 121.92)
 		)
 		(stroke
@@ -4040,28 +4206,6 @@
 			(justify right bottom)
 		)
 		(uuid "f8fe4ea5-9672-49df-a9f1-c99da50d1aff")
-	)
-	(global_label "I_USB"
-		(shape output)
-		(at 138.43 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2b5f7388-3dd5-4d08-9037-2ea54e879f74")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 	)
 	(global_label "I_EXT"
 		(shape output)
@@ -5953,6 +6097,132 @@
 			(project "s6tm-detect-cb-2"
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 132.08 107.95 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "452ce482-79fa-49d7-9780-33fd54c7dcb6")
+		(property "Reference" "D9"
+			(at 132.3975 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 132.3975 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 132.08 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 132.08 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Microdiode Semiconductor (MDD)"
+			(at 132.08 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SS54"
+			(at 132.08 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 132.08 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C22452"
+			(at 132.08 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bda7bafc-739a-4c36-a96e-bae55793914d")
+		)
+		(pin "1"
+			(uuid "361ebb9d-b8d4-405d-ad31-6e75890f0e39")
+		)
+		(instances
+			(project "s6tm-detect-cb-2"
+				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -8485,83 +8755,6 @@
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a"
 					(reference "#PWR080")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 124.46 105.41)
-		(size 12.7 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "6e2404b8-a88d-4310-8201-9ab9dfb40b54")
-		(property "Sheetname" "Efuse1"
-			(at 124.46 104.6984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "efuse.kicad_sch"
-			(at 124.46 113.6146 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "+5V" output
-			(at 137.16 107.95 0)
-			(uuid "b7e07ea0-dfb7-4390-a125-c7b6b2a85f84")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "+VIN" input
-			(at 124.46 107.95 180)
-			(uuid "0f27b037-442f-4056-ba9f-2adb2bf7ba66")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ILM" output
-			(at 137.16 110.49 0)
-			(uuid "9cfe201a-bd00-46ca-b1f5-6f8f9b9df74a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a"
-					(page "4")
 				)
 			)
 		)
