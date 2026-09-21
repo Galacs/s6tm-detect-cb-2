@@ -2556,7 +2556,7 @@
 		(uuid "181d10fd-054b-4d2b-8ba2-234bd4fb3171")
 	)
 	(junction
-		(at 114.3 66.04)
+		(at 109.22 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b417077-9083-48b0-b363-627a67919ea8")
@@ -2731,13 +2731,23 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 66.04) (xy 114.3 66.04)
+			(xy 100.33 66.04) (xy 125.73 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3736a681-dfda-4ca4-9b19-2752816de781")
+	)
+	(wire
+		(pts
+			(xy 120.65 76.2) (xy 132.08 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e631d0b-6f66-4ee7-863d-91dfdc9e2823")
 	)
 	(wire
 		(pts
@@ -2801,6 +2811,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 88.9) (xy 132.08 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a4f006-8f5d-499e-8c21-7f8dcd7848a9")
+	)
+	(wire
+		(pts
 			(xy 176.53 34.29) (xy 181.61 34.29)
 		)
 		(stroke
@@ -2818,6 +2838,16 @@
 			(type default)
 		)
 		(uuid "5e361577-cd59-4b6b-914b-ecaf858cc9a4")
+	)
+	(wire
+		(pts
+			(xy 120.65 73.66) (xy 132.08 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ff667e5-fef0-4326-8cbe-1121d5777add")
 	)
 	(wire
 		(pts
@@ -2891,7 +2921,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 66.04) (xy 114.3 71.12)
+			(xy 109.22 66.04) (xy 109.22 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2968,6 +2998,16 @@
 			(type default)
 		)
 		(uuid "b0c1f4e5-f7ec-4255-b859-9aaca20fdf85")
+	)
+	(wire
+		(pts
+			(xy 120.65 86.36) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e42ceb-8dce-49ae-b03a-0d950fcc034e")
 	)
 	(wire
 		(pts
@@ -3061,16 +3101,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 66.04) (xy 125.73 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3923761-fea7-4bf4-b457-57e70b02dfa6")
-	)
-	(wire
-		(pts
 			(xy 171.45 44.45) (xy 171.45 43.18)
 		)
 		(stroke
@@ -3081,7 +3111,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 78.74) (xy 114.3 80.01)
+			(xy 109.22 78.74) (xy 109.22 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3108,6 +3138,86 @@
 			(type default)
 		)
 		(uuid "f2b4a0b1-2b8a-4934-b434-7177061a4d0e")
+	)
+	(label "UART1_DTR"
+		(at 120.65 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "295d4c00-4904-455d-91f2-4e712f886e1d")
+	)
+	(label "UART1_DTR"
+		(at 80.01 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69bbbd19-8094-4e32-bc28-41965f013b6c")
+	)
+	(label "UART1_RXD"
+		(at 80.01 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ba45b33-654e-40f4-845d-71fc45187478")
+	)
+	(label "UART1_TXD"
+		(at 80.01 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5a22828-ecf6-410e-8c85-52e34e49977d")
+	)
+	(label "UART1_RXD"
+		(at 120.65 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b19cfcdd-ede2-420d-96b2-7dc12b026e26")
+	)
+	(label "UART1_TXD"
+		(at 120.65 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6e5f91a-0354-4357-959b-eb848b5e90c3")
+	)
+	(label "UART1_RI"
+		(at 120.65 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5dc5feb-8a97-4f27-ac11-e3f66971c62d")
+	)
+	(label "UART1_RI"
+		(at 80.01 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcc2f185-c52f-4d4c-bef6-9831b3dc5b24")
 	)
 	(global_label "LTE_PWR"
 		(shape input)
@@ -3146,7 +3256,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d7179ae-7a9a-4728-a6d1-d88e406a993f")
 		(property "Reference" "Q2"
-			(at 102.87 71.1199 0)
+			(at 102.87 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4591,7 +4701,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 114.3 74.93 180)
+		(at 109.22 74.93 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4602,7 +4712,7 @@
 		(fields_autoplaced yes)
 		(uuid "84d433de-f322-403e-ae32-17119d9637e9")
 		(property "Reference" "C47"
-			(at 118.11 73.6599 0)
+			(at 113.03 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4613,7 +4723,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 118.11 76.1999 0)
+			(at 113.03 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4624,7 +4734,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 113.3348 71.12 0)
+			(at 108.2548 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4635,7 +4745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 74.93 0)
+			(at 109.22 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4646,7 +4756,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 114.3 74.93 0)
+			(at 109.22 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4657,7 +4767,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 114.3 74.93 90)
+			(at 109.22 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4668,7 +4778,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL05B104KB54PNC"
-			(at 114.3 74.93 90)
+			(at 109.22 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4679,7 +4789,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 114.3 74.93 90)
+			(at 109.22 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4690,7 +4800,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C307331"
-			(at 114.3 74.93 90)
+			(at 109.22 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4701,7 +4811,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 114.3 74.93 90)
+			(at 109.22 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4712,7 +4822,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 114.3 74.93 90)
+			(at 109.22 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5342,7 +5452,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 80.01 0)
+		(at 109.22 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5353,7 +5463,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2964e95-ced5-49db-a518-d9d578a04d38")
 		(property "Reference" "#PWR099"
-			(at 114.3 86.36 0)
+			(at 109.22 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5364,7 +5474,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 85.09 0)
+			(at 109.22 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5375,7 +5485,7 @@
 			)
 		)
 		(property "Footprint" "RF_GSM:SIMCom_SIM800C"
-			(at 114.3 80.01 0)
+			(at 109.22 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5386,7 +5496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 80.01 0)
+			(at 109.22 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5397,7 +5507,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 80.01 0)
+			(at 109.22 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5495,6 +5605,83 @@
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/2e4c8b7c-4e07-4d89-a615-6ea5caa4da61"
 					(reference "R17")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 146.05)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "32c3d493-1b0e-47fa-8917-a660b5c090e8")
+		(property "Sheetname" "Level Shifter"
+			(at 57.15 145.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "level-shifter.kicad_sch"
+			(at 57.15 154.2546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 57.15 151.13 180)
+			(uuid "6548e8e1-1d76-47f7-9e25-4ec1fda23fa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 57.15 148.59 180)
+			(uuid "a083424b-8a49-435e-ba4e-c7831286a5bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Y" output
+			(at 69.85 148.59 0)
+			(uuid "a3b46511-846f-4b41-b300-78d6cea42716")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "s6tm-detect-cb-2"
+				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/2e4c8b7c-4e07-4d89-a615-6ea5caa4da61"
+					(page "5")
 				)
 			)
 		)
