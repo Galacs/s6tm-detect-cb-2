@@ -495,7 +495,7 @@
         "uuid": "f4a18219-a653-4da9-9eb6-662d05c28432"
       }
     ],
-    "used_designators": "C1-35,Q1,TP2,TP4-8,JP1,AE1,SW1-3,D3-11,D22,U1-12,L1-5,FID1-3,#FLG1-7,BT1,H1-3,H5-7,#PWR1-2,#PWR4-7,#PWR9-97,Y1-2,J1-3,J5,J8-9,R1-31",
+    "used_designators": "Q1,D3-11,D22,U1-12,C1-39,L1-5,SW1-3,AE1,H1-3,H5-7,BT1,#FLG1-7,FID1-3,R1-31,TP2,TP4-9,JP1,J1-3,J5,J8-9,Y1-2,#PWR1-2,#PWR4-7,#PWR9-97",
     "variants": []
   },
   "sheets": [
@@ -510,6 +510,10 @@
     [
       "7554ad60-3936-47eb-9d6b-43a6f6ab1674",
       "Efuse"
+    ],
+    [
+      "2e4c8b7c-4e07-4d89-a615-6ea5caa4da61",
+      "Cellular"
     ]
   ],
   "text_variables": {},
