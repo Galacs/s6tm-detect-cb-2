@@ -495,7 +495,7 @@
         "uuid": "f4a18219-a653-4da9-9eb6-662d05c28432"
       }
     ],
-    "used_designators": "TP2,TP4-10,R1-31,FID1-3,#FLG1-7,#PWR1-102,Y1-2,J1-3,J5,J8-9,JP1,Q1-2,U1-14,D3-11,D22,C1-48,L1-5,AE1,SW1-3,H1-3,H5-7,BT1",
+    "used_designators": "L1-5,C1-52,D3-11,D22,U1-18,BT1,H1-3,H5-7,SW1-3,AE1,TP2,TP4-10,R1-31,JP1,FID1-3,#FLG1-7,#PWR1-119,Y1-2,J1-3,J5,J8-9,Q1-2",
     "variants": []
   },
   "sheets": [
@@ -518,6 +518,22 @@
     [
       "32c3d493-1b0e-47fa-8917-a660b5c090e8",
       "Level Shifter"
+    ],
+    [
+      "98ab9a83-ee49-418b-b983-049784f7f53f",
+      "Level Shifter1"
+    ],
+    [
+      "db2ef6a9-111c-4bec-afa1-ab77dd998347",
+      "Level Shifter2"
+    ],
+    [
+      "385bdec9-6424-4b07-b543-e3b10735eeaa",
+      "Level Shifter3"
+    ],
+    [
+      "ddb8cfb5-d471-481d-b043-497a11b3c6cd",
+      "Level Shifter4"
     ]
   ],
   "text_variables": {},
