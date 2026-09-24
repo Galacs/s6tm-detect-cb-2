@@ -5511,6 +5511,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 170.18) (xy 76.2 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a89d46a-e93a-423c-afa2-6a43223ab7a6")
+	)
+	(wire
+		(pts
 			(xy 236.22 24.13) (xy 236.22 35.56)
 		)
 		(stroke
@@ -6111,6 +6121,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 167.64) (xy 76.2 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9099f3e2-2dd6-4181-af14-6232840bbe58")
+	)
+	(wire
+		(pts
 			(xy 250.19 24.13) (xy 255.27 24.13)
 		)
 		(stroke
@@ -6471,6 +6491,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 172.72) (xy 76.2 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67ac364-5eb7-4172-96e3-6dd2339dbc58")
+	)
+	(wire
+		(pts
 			(xy 43.18 173.99) (xy 64.77 173.99)
 		)
 		(stroke
@@ -6618,6 +6648,16 @@
 			(type default)
 		)
 		(uuid "e261eb2d-586a-41d4-8862-ec303b933b52")
+	)
+	(wire
+		(pts
+			(xy 87.63 175.26) (xy 76.2 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e82fa861-d89d-42fe-85ae-caba74b34333")
 	)
 	(wire
 		(pts
@@ -6811,6 +6851,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 165.1) (xy 76.2 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb07a232-7adb-4b66-8c43-49bfc329c2a3")
+	)
+	(wire
+		(pts
 			(xy 31.75 43.18) (xy 19.05 43.18)
 		)
 		(stroke
@@ -6868,6 +6918,16 @@
 			(type default)
 		)
 		(uuid "ff95004a-7418-4985-89ea-c171b682bd4d")
+	)
+	(label "SIM_RXD"
+		(at 76.2 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bc043dd-5582-42c5-bd51-9da5e5d78bae")
 	)
 	(label "SIM_CTS"
 		(at 19.05 43.18 0)
@@ -6999,6 +7059,16 @@
 		)
 		(uuid "81626b3c-e9df-4a64-aaa7-6667103fe04a")
 	)
+	(label "SIM_TXD"
+		(at 76.2 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86cd9205-cdf1-4de7-9ddf-d7dec93a4d59")
+	)
 	(label "STATUS"
 		(at 261.62 52.07 180)
 		(effects
@@ -7008,6 +7078,16 @@
 			(justify right bottom)
 		)
 		(uuid "8a7053cb-b18e-45a6-b09e-2671e87ba5f2")
+	)
+	(label "SIM_RTS"
+		(at 76.2 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d385c79-f0f4-4711-a577-4d6ac93d1b2a")
 	)
 	(label "SIM_TXD"
 		(at 57.15 85.09 180)
@@ -7089,6 +7169,16 @@
 		)
 		(uuid "b19cfcdd-ede2-420d-96b2-7dc12b026e26")
 	)
+	(label "SIM_DTR"
+		(at 76.2 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1f8f579-a8f3-4206-b442-bc2000309be1")
+	)
 	(label "UART1_TXD"
 		(at 199.39 76.2 0)
 		(effects
@@ -7129,6 +7219,16 @@
 		)
 		(uuid "d842d644-3471-4c01-9679-5f0ec323b332")
 	)
+	(label "SIM_CTS"
+		(at 76.2 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df2278d2-3b62-411f-ac8a-459e09e3c97e")
+	)
 	(label "SIM_RTS"
 		(at 19.05 31.75 0)
 		(effects
@@ -7159,6 +7259,78 @@
 		)
 		(uuid "fedb1e10-00ee-4332-a3c3-d8bee781cbcd")
 	)
+	(global_label "SIM_DTR"
+		(shape input)
+		(at 87.63 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "421cd931-2657-48c8-86c5-09de19f21c30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.3561 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SIM_RTS"
+		(shape input)
+		(at 87.63 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "510f8093-b299-4a25-b1f8-91d1f321bb76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.2956 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SIM_TXD"
+		(shape input)
+		(at 87.63 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5fc4d259-b739-4acf-9cb9-3ccc32399207")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.2956 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "LTE_PWR"
 		(shape input)
 		(at 158.75 62.23 180)
@@ -7180,6 +7352,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "SIM_CTS"
+		(shape input)
+		(at 87.63 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de2cb83c-107c-4665-bd8b-8177626a6845")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.2956 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SIM_RXD"
+		(shape input)
+		(at 87.63 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fcd4c81b-9104-49af-bdf6-b723941f6d44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.598 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
