@@ -7443,6 +7443,12 @@
 		(uuid "4fc23505-9f29-42cb-bdaf-c8c18a4bb18a")
 	)
 	(junction
+		(at 264.16 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51939015-0fad-4ca9-9777-ed349481dd5e")
+	)
+	(junction
 		(at 104.14 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7878,7 +7884,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 102.87) (xy 264.16 106.68)
+			(xy 264.16 102.87) (xy 264.16 105.41)
 		)
 		(stroke
 			(width 0)
@@ -8665,6 +8671,16 @@
 			(type default)
 		)
 		(uuid "589fdf9b-8e75-44a6-918b-a6b2ba3b7526")
+	)
+	(wire
+		(pts
+			(xy 264.16 105.41) (xy 264.16 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d83a75-af00-41bb-85a9-94a5987b2539")
 	)
 	(wire
 		(pts
@@ -20347,6 +20363,85 @@
 			(project "s6tm-detect-cb-2"
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 264.16 105.41 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d4645a4-5417-460e-b828-26af7437b7af")
+		(property "Reference" "TP13"
+			(at 266.192 102.616 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 266.1921 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 264.16 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 264.16 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9a6d906-716a-4af2-bcae-2756a6c3cb4c")
+		)
+		(instances
+			(project "s6tm-detect-cb-2"
+				(path "/f4a18219-a653-4da9-9eb6-662d05c28432"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
