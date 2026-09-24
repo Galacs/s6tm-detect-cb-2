@@ -5,8 +5,8 @@
 	(uuid "6ba981ae-ac00-4ec9-8fab-25777785e9bd")
 	(paper "A4")
 	(title_block
-		(title "RPI CAN FD Power Hat+")
-		(date "2026-04-11")
+		(title "S6TM Detect Carrier 2")
+		(date "2026-09-24")
 		(rev "01")
 		(company "Rémi Ait-Younes")
 	)
