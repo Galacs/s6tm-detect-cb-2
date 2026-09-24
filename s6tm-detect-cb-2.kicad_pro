@@ -366,34 +366,34 @@
       "GND": [
         "SIM"
       ],
-      "Net-(J4-CLK)": [
+      "Net-(J8-CLK)": [
         "SIM"
       ],
-      "Net-(J4-I{slash}O)": [
+      "Net-(J8-I{slash}O)": [
         "SIM"
       ],
-      "Net-(J4-RST)": [
+      "Net-(J8-RST)": [
         "SIM"
       ],
-      "Net-(J4-VCC)": [
+      "Net-(J8-VCC)": [
         "SIM"
       ],
-      "Net-(U13-SIM_CLK)": [
+      "Net-(U13-CLK_IN)": [
         "SIM"
       ],
-      "Net-(U13-SIM_DATA)": [
+      "Net-(U13-DATA1_IN)": [
         "SIM"
       ],
-      "Net-(U13-SIM_RST)": [
+      "Net-(U13-DATA2_IN)": [
         "SIM"
       ],
-      "unconnected-(J4-PadCD)": [
+      "unconnected-(J8-PadCD)": [
         "SIM"
       ],
-      "unconnected-(J4-VPP-Pad6)": [
+      "unconnected-(J8-VPP-Pad6)": [
         "SIM"
       ],
-      "unconnected-(U19-NC-Pad4)": [
+      "unconnected-(U13-NC-Pad4)": [
         "SIM"
       ]
     },
@@ -659,7 +659,7 @@
         "uuid": "f4a18219-a653-4da9-9eb6-662d05c28432"
       }
     ],
-    "used_designators": "FID1-3,#FLG1-9,SW1-4,AE1,L1-5,#PWR1-136,Y1-2,J1-10,BT1,H1-3,H5-7,C1-55,D3-15,D22,U1-19,Q1-4,TP2,TP4-17,JP1,R1-39",
+    "used_designators": "FID1-3,#FLG1-9,SW1-4,AE1,L1-5,#PWR1-136,Y1-2,J1-10,BT1,H1-7,C1-55,D1-15,D22,U1-19,Q1-4,TP1-17,JP1,R1-39",
     "variants": []
   },
   "sheets": [
