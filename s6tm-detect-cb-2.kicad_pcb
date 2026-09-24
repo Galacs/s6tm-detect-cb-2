@@ -6823,12 +6823,6 @@
 		(path "/6fa09874-d776-462a-96f0-334a536bab7e")
 		(sheetname "/")
 		(sheetfile "s6tm-detect-cb-2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6853,7 +6847,7 @@
 		)
 		(fp_line
 			(start 9.5 6.5)
-			(end 12.5 6.5)
+			(end 13 6.5)
 			(stroke
 				(width 0.1)
 				(type default)
@@ -6863,7 +6857,7 @@
 		)
 		(fp_line
 			(start 9.502008 -6.5)
-			(end 12.502008 -6.5)
+			(end 13 -6.5)
 			(stroke
 				(width 0.1)
 				(type default)
@@ -6872,8 +6866,8 @@
 			(uuid "6435502e-8014-4504-af6f-77b02b6a3d9a")
 		)
 		(fp_line
-			(start 12.5 6.5)
-			(end 12.5 2.2)
+			(start 13 -6.5)
+			(end 13 -2.2)
 			(stroke
 				(width 0.1)
 				(type default)
@@ -6882,8 +6876,8 @@
 			(uuid "2bb40a00-17a8-4f43-9ac5-f72437437c5c")
 		)
 		(fp_line
-			(start 12.502008 -6.5)
-			(end 12.502008 -2.2)
+			(start 13 6.5)
+			(end 13 2.2)
 			(stroke
 				(width 0.1)
 				(type default)
@@ -7331,6 +7325,17 @@
 			(uuid "edf1e70c-e386-4dec-a432-9b54a9ea04dc")
 		)
 		(embedded_fonts no)
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/S8421-45R.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -8628,7 +8633,7 @@
 			(uuid "d0ffb32d-4d37-474b-8cc3-cdbfb83337c1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9280,7 +9285,7 @@
 			(uuid "0e93a3c7-5829-400b-8a05-b1c67568a707")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Texas_R-PUSON-N8_USON-8-1EP_1.6x2.1mm_P0.5mm_EP0.4x1.7mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Texas_R-PUSON-N8_USON-8-1EP_1.6x2.1mm_P0.5mm_EP0.40x1.7mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15654,7 +15659,7 @@
 			(uuid "f2409a76-caf5-4b3a-9610-2a49fa214642")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Texas_PWSON-N6.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/HDC2080DMBR.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15662,7 +15667,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -45431,7 +45436,7 @@
 			(uuid "7f0acce9-042a-401a-8782-5f9de700dfec")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -48423,7 +48428,7 @@
 			(uuid "70f83c29-bbdb-4a0d-82be-89a4e5e90083")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-10-1EP_2.6x2.6mm_P0.5mm_EP1.3x2.2mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-10-1EP_3x3mm_P0.5mm_EP1.55x2.48mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
