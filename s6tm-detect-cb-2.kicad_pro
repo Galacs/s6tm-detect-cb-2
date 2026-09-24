@@ -234,7 +234,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -263,7 +263,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -279,14 +279,175 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "CAN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgb(132, 132, 132)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "I2C",
+        "pcb_color": "rgb(194, 0, 194)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "ILM",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "PWR",
+        "pcb_color": "rgb(255, 3, 17)",
+        "priority": 10,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "RF",
+        "pcb_color": "rgb(255, 231, 6)",
+        "priority": 9,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "SIM",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "SPI",
+        "pcb_color": "rgb(0, 194, 194)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "UART",
+        "pcb_color": "rgb(22, 5, 255)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB",
+        "pcb_color": "rgb(34, 255, 22)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "XTAL",
+        "pcb_color": "rgb(255, 0, 255)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "GND": [
+        "SIM"
+      ],
+      "Net-(J4-CLK)": [
+        "SIM"
+      ],
+      "Net-(J4-I{slash}O)": [
+        "SIM"
+      ],
+      "Net-(J4-RST)": [
+        "SIM"
+      ],
+      "Net-(J4-VCC)": [
+        "SIM"
+      ],
+      "Net-(U13-SIM_CLK)": [
+        "SIM"
+      ],
+      "Net-(U13-SIM_DATA)": [
+        "SIM"
+      ],
+      "Net-(U13-SIM_RST)": [
+        "SIM"
+      ],
+      "unconnected-(J4-VPP-Pad6)": [
+        "SIM"
+      ],
+      "unconnected-(U19-NC-Pad4)": [
+        "SIM"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "XTAL",
+        "pattern": "/XTAL_*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+*"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/U0*"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/*RF*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/ESP_D*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/SDA"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*SCL"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Cellular/MODEM_D*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/MOSI"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/SCLK"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "/CAN"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/FLASH*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -465,7 +626,7 @@
       "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
-      "intersheets_ref_short": false,
+      "intersheets_ref_short": true,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,

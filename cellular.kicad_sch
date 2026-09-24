@@ -7459,7 +7459,7 @@
 		)
 		(uuid "f6a46aeb-5147-4f60-8542-6c2cddcedac2")
 	)
-	(label "L_RF_MOD"
+	(label "RF_MOD_L"
 		(at 196.85 38.1 0)
 		(effects
 			(font
@@ -7469,7 +7469,7 @@
 		)
 		(uuid "fc1d29fa-822f-4685-94bb-35120033241f")
 	)
-	(label "L_RF_TRANS"
+	(label "RF_TRANS_L"
 		(at 176.53 38.1 0)
 		(effects
 			(font
@@ -7620,6 +7620,60 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 127 91.44) (xy 127 121.285) (xy 207.01 121.285) (xy 207.01 91.44)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "31b803d9-9d73-440a-bc2c-25b67af2fa37")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 129.54 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9085653-f0f2-4c9e-9a4a-fce877728aca")
+		(property "Netclass" "SIM"
+			(at 130.2385 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -102.87 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
 			)
 		)
 	)
@@ -9683,7 +9737,7 @@
 		(dnp no)
 		(uuid "51dd87ca-a7b3-4dd2-8f10-f42368d20a41")
 		(property "Reference" "TP14"
-			(at 208.28 109.728 0)
+			(at 206.502 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11968,7 +12022,7 @@
 		(dnp no)
 		(uuid "866ce5b8-f86a-439a-bec0-12714e934d5a")
 		(property "Reference" "U19"
-			(at 182.0067 88.9 0)
+			(at 180.594 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11979,7 +12033,7 @@
 			)
 		)
 		(property "Value" "TPD3F303DPV"
-			(at 182.0067 91.44 0)
+			(at 180.594 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13515,7 +13569,7 @@
 		(dnp no)
 		(uuid "b87246dd-bcf4-4633-a0c6-879dc19fd048")
 		(property "Reference" "TP15"
-			(at 202.946 93.218 0)
+			(at 201.422 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
