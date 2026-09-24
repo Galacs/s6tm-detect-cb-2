@@ -3003,7 +3003,7 @@
 	)
 	(rectangle
 		(start 71.12 97.79)
-		(end 121.92 143.51)
+		(end 124.46 143.51)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3314,12 +3314,6 @@
 		(uuid "c5c5a033-d924-4da5-8044-3fdff43f50d6")
 	)
 	(junction
-		(at 149.86 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb7b87c3-c0dd-46e1-af32-3b9de296554f")
-	)
-	(junction
 		(at 173.99 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3521,7 +3515,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 125.73) (xy 120.65 125.73)
+			(xy 115.57 125.73) (xy 116.84 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4521,7 +4515,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 123.19) (xy 120.65 123.19)
+			(xy 99.06 123.19) (xy 116.84 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4799,16 +4793,6 @@
 		)
 		(uuid "269f630d-1e86-4c2a-9ab0-1f40844b50ac")
 	)
-	(label "D-"
-		(at 120.65 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5a5f9f61-f2d8-428f-b9cf-1b3b7a2e70f9")
-	)
 	(label "CANH"
 		(at 74.93 73.66 0)
 		(effects
@@ -4819,15 +4803,53 @@
 		)
 		(uuid "e1602317-9f34-4a1c-8c6d-25aa8f5ab521")
 	)
-	(label "D+"
-		(at 120.65 125.73 180)
+	(global_label "D+"
+		(shape input)
+		(at 116.84 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "f8fe4ea5-9672-49df-a9f1-c99da50d1aff")
+		(uuid "0e616118-224d-4feb-927a-6b658ba49b95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.6676 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D-"
+		(shape input)
+		(at 116.84 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf32ae49-f97e-497d-9345-59b582f85fb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.6676 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "I_EXT"
 		(shape output)
@@ -9214,85 +9236,6 @@
 			(project "s6tm-detect-cb-2"
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a"
 					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 149.86 78.74 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76643783-dc4c-4577-89d0-227e699c90d0")
-		(property "Reference" "#FLG02"
-			(at 149.86 80.645 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 149.86 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 149.86 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65c234c6-9c04-44b9-b96b-d1977bc92ab8")
-		)
-		(instances
-			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
