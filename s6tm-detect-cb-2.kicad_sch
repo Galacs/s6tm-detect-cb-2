@@ -7124,7 +7124,7 @@
 		)
 	)
 	(rectangle
-		(start 237.49 26.67)
+		(start 236.22 26.67)
 		(end 283.21 69.85)
 		(stroke
 			(width 0)
@@ -7830,10 +7830,6 @@
 	(no_connect
 		(at 57.15 54.61)
 		(uuid "dcbcd0be-a858-4019-af03-d63de414b53d")
-	)
-	(no_connect
-		(at 57.15 52.07)
-		(uuid "e0ec01b2-d011-4c3c-9247-ccd34c3bd982")
 	)
 	(no_connect
 		(at 176.53 123.19)
@@ -10013,6 +10009,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 52.07) (xy 59.69 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd173b4-c9f7-442f-b106-60804f0ed236")
+	)
+	(wire
+		(pts
 			(xy 43.18 105.41) (xy 43.18 104.14)
 		)
 		(stroke
@@ -10340,6 +10346,16 @@
 			(type default)
 		)
 		(uuid "da2eb155-17e3-4c86-b28c-0cc6fa2a5bc8")
+	)
+	(wire
+		(pts
+			(xy 59.69 50.8) (xy 59.69 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dace5c4a-953a-4278-98d7-28b0cf8336b4")
 	)
 	(wire
 		(pts
@@ -16102,6 +16118,85 @@
 			(project "s6tm-detect-cb-2"
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 59.69 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3395db1e-43c9-464c-965e-3b6f9009671c")
+		(property "Reference" "TP17"
+			(at 56.388 44.958 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 62.23 48.7679 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 64.77 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 59.69 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "faa04f21-c935-44a2-b739-3f9a475a8b22")
+		)
+		(instances
+			(project "s6tm-detect-cb-2"
+				(path "/f4a18219-a653-4da9-9eb6-662d05c28432"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
