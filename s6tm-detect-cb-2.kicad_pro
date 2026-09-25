@@ -557,28 +557,28 @@
       {
         "name": "CAN",
         "pcb_color": "rgb(194, 194, 0)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "GND",
         "pcb_color": "rgb(132, 132, 132)",
-        "priority": 6,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "I2C",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "ILM",
         "pcb_color": "rgb(0, 132, 0)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
@@ -599,14 +599,14 @@
       {
         "name": "SIM",
         "pcb_color": "rgb(221, 133, 0)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "SPI",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
@@ -627,7 +627,7 @@
       {
         "name": "XTAL",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       }
@@ -933,7 +933,7 @@
         "uuid": "f4a18219-a653-4da9-9eb6-662d05c28432"
       }
     ],
-    "used_designators": "U1-19,D1-15,D22,H1-7,BT1,R1-39,JP1,TP1-17,Q1-4,FID1-3,#FLG1-9,SW1-4,AE1,C1-55,L1-5,#PWR1-136,Y1-2,J1-10",
+    "used_designators": "SW1-4,AE1,#FLG1-9,FID1-3,J1-10,Y1-2,#PWR1-136,L1-5,Q1-4,U1-19,D1-15,D22,C1-55,H1-7,BT1,R1-39,JP1,TP1-17",
     "variants": []
   },
   "sheets": [
