@@ -655,10 +655,19 @@
       "Net-(U13-CLK_IN)": [
         "SIM"
       ],
+      "Net-(U13-CLK_OUT)": [
+        "SIM"
+      ],
       "Net-(U13-DATA1_IN)": [
         "SIM"
       ],
+      "Net-(U13-DATA1_OUT)": [
+        "SIM"
+      ],
       "Net-(U13-DATA2_IN)": [
+        "SIM"
+      ],
+      "Net-(U13-DATA2_OUT)": [
         "SIM"
       ],
       "unconnected-(J8-PadCD)": [

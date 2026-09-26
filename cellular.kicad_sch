@@ -466,8 +466,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J4"
-				(at 2.54 11.43 0)
+			(property "Reference" "J8"
+				(at 2.286 10.922 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -510,6 +510,50 @@
 				)
 			)
 			(property "Description" "SIM Card"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Basic" "X"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Part #" "C720512"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "XUNPU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "SMN-305-ARP7"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -642,7 +686,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 5.08 0)
+					(at -12.7 0 0)
 					(length 2.54)
 					(name "RST"
 						(effects
@@ -714,7 +758,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 0 0)
+					(at -12.7 5.08 0)
 					(length 2.54)
 					(name "I/O"
 						(effects
@@ -2717,7 +2761,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 -40.64 0)
+					(at -20.32 -35.56 0)
 					(length 2.54)
 					(name "SIM_DATA"
 						(effects
@@ -2753,7 +2797,7 @@
 					)
 				)
 				(pin output line
-					(at -20.32 -35.56 0)
+					(at -20.32 -40.64 0)
 					(length 2.54)
 					(name "SIM_RST"
 						(effects
@@ -5381,6 +5425,12 @@
 		(uuid "aca06cc2-7c4c-4ec2-9f4c-a30be745fe52")
 	)
 	(junction
+		(at 162.56 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b14e641f-9864-40ed-97ca-af8aa74f207b")
+	)
+	(junction
 		(at 55.88 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6266,6 +6316,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 83.82) (xy 184.15 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ab51ce-38c8-4353-aa7b-c5556defaeaf")
+	)
+	(wire
+		(pts
 			(xy 41.91 102.87) (xy 41.91 101.6)
 		)
 		(stroke
@@ -6313,16 +6373,6 @@
 			(type default)
 		)
 		(uuid "7db241bc-51f3-40d9-9917-9181627b97f0")
-	)
-	(wire
-		(pts
-			(xy 162.56 83.82) (xy 162.56 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e8fa3c7-275d-482b-990b-5381a0671060")
 	)
 	(wire
 		(pts
@@ -6586,7 +6636,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 83.82) (xy 184.15 83.82)
+			(xy 158.75 83.82) (xy 162.56 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6693,6 +6743,16 @@
 			(type default)
 		)
 		(uuid "a9e2331f-1ec6-4393-b876-2569e34c143d")
+	)
+	(wire
+		(pts
+			(xy 162.56 83.82) (xy 162.56 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab1fa8a8-b5eb-41e4-9955-f9c52ffddd16")
 	)
 	(wire
 		(pts
@@ -12513,7 +12573,6 @@
 	(symbol
 		(lib_id "Power_Protection:TPD3F303DPV")
 		(at 184.15 101.6 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12523,7 +12582,7 @@
 		(dnp no)
 		(uuid "866ce5b8-f86a-439a-bec0-12714e934d5a")
 		(property "Reference" "U13"
-			(at 180.594 110.998 0)
+			(at 167.386 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12534,7 +12593,7 @@
 			)
 		)
 		(property "Value" "TPD3F303DPV"
-			(at 180.594 113.03 0)
+			(at 167.386 113.792 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12545,7 +12604,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Texas_R-PUSON-N8_USON-8-1EP_1.6x2.1mm_P0.5mm_EP0.4x1.7mm"
-			(at 185.42 111.76 0)
+			(at 182.88 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12556,7 +12615,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tpd3f303"
-			(at 180.34 114.3 0)
+			(at 187.96 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
