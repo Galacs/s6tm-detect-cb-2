@@ -3133,7 +3133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 187.6552 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3177,7 +3177,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C15525"
+		(property "JLCPCB Part #" "C19702"
 			(at 186.69 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3199,7 +3199,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05A106MQ5NUNC"
+		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
 			(at 186.69 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3439,7 +3439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 180.6448 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3483,7 +3483,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C15525"
+		(property "JLCPCB Part #" "C19702"
 			(at 181.61 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3505,7 +3505,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05A106MQ5NUNC"
+		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
 			(at 181.61 87.63 0)
 			(hide yes)
 			(show_name no)
