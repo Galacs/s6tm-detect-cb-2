@@ -7237,7 +7237,7 @@
 		(dnp no)
 		(uuid "431a9c66-94ea-4571-927a-ff4f875ce88d")
 		(property "Reference" "C25"
-			(at 165.862 112.014 0)
+			(at 165.608 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7248,7 +7248,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 165.354 114.554 0)
+			(at 165.1 113.538 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
