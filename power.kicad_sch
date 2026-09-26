@@ -3314,7 +3314,7 @@
 		(uuid "c57455fc-3d39-4c28-b36e-2050c49632c4")
 	)
 	(junction
-		(at 91.44 78.74)
+		(at 107.95 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5c5a033-d924-4da5-8044-3fdff43f50d6")
@@ -3531,7 +3531,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 73.66) (xy 86.36 73.66)
+			(xy 82.55 73.66) (xy 86.36 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3688,6 +3688,16 @@
 			(type default)
 		)
 		(uuid "3a48009f-2d6a-4ba2-bf30-53f6a7fe7d94")
+	)
+	(wire
+		(pts
+			(xy 91.44 78.74) (xy 123.19 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bb0f76c-a8d4-408b-9b05-2a90f4c3df61")
 	)
 	(wire
 		(pts
@@ -3888,16 +3898,6 @@
 			(type default)
 		)
 		(uuid "5e7b7ce8-16e9-4495-b061-d0aef5fbd697")
-	)
-	(wire
-		(pts
-			(xy 104.14 78.74) (xy 123.19 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f09461e-d46f-4974-8903-742384655f22")
 	)
 	(wire
 		(pts
@@ -4391,16 +4391,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 78.74) (xy 104.14 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0193778-4590-4d30-924e-46adfc7be58d")
-	)
-	(wire
-		(pts
 			(xy 99.06 120.65) (xy 99.06 123.19)
 		)
 		(stroke
@@ -4451,7 +4441,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 80.01) (xy 91.44 78.74)
+			(xy 107.95 80.01) (xy 107.95 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4471,7 +4461,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 76.2) (xy 88.9 76.2)
+			(xy 82.55 76.2) (xy 88.9 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4548,16 +4538,6 @@
 			(type default)
 		)
 		(uuid "d72aeb78-805c-4217-8b98-955b6d8ae741")
-	)
-	(wire
-		(pts
-			(xy 104.14 80.01) (xy 104.14 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc028d47-d0df-4c9c-acd1-66b98838603c")
 	)
 	(wire
 		(pts
@@ -4789,26 +4769,6 @@
 		)
 		(uuid "f99b6d0e-d6c9-40be-84b3-076f2208c757")
 	)
-	(label "CANL"
-		(at 74.93 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "269f630d-1e86-4c2a-9ab0-1f40844b50ac")
-	)
-	(label "CANH"
-		(at 74.93 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1602317-9f34-4a1c-8c6d-25aa8f5ab521")
-	)
 	(global_label "D+"
 		(shape input)
 		(at 116.84 125.73 0)
@@ -4830,6 +4790,54 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "CANH"
+		(shape bidirectional)
+		(at 82.55 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55efcbcf-0347-4cef-ac72-eab801c9632a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.4339 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CANL"
+		(shape bidirectional)
+		(at 82.55 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "727a600d-176a-4c6b-a0ad-2a9d7bdd3cca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.7363 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -5410,7 +5418,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 91.44 83.82 90)
+		(at 107.95 83.82 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5422,7 +5430,7 @@
 		(fields_autoplaced yes)
 		(uuid "09984fbf-507c-4263-b6fb-b0d055b02aaf")
 		(property "Reference" "D3"
-			(at 93.98 83.8199 90)
+			(at 110.49 83.8199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5433,7 +5441,7 @@
 			)
 		)
 		(property "Value" "SMBJ6.0CA"
-			(at 93.98 85.0899 90)
+			(at 110.49 85.0899 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5445,7 +5453,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 91.44 83.82 0)
+			(at 107.95 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5456,7 +5464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 83.82 0)
+			(at 107.95 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5467,7 +5475,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 91.44 83.82 0)
+			(at 107.95 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5478,7 +5486,7 @@
 			)
 		)
 		(property "Basic" "E"
-			(at 91.44 83.82 90)
+			(at 107.95 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5489,7 +5497,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2925451"
-			(at 91.44 83.82 90)
+			(at 107.95 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5500,7 +5508,7 @@
 			)
 		)
 		(property "Manufacturer" "Liown"
-			(at 91.44 83.82 90)
+			(at 107.95 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5511,7 +5519,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "SMBJ6.0CA"
-			(at 91.44 83.82 90)
+			(at 107.95 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8089,7 +8097,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 87.63 0)
+		(at 107.95 87.63 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8100,7 +8108,7 @@
 		(dnp no)
 		(uuid "53f08e0d-823f-468d-b222-9ae7383886ad")
 		(property "Reference" "#PWR063"
-			(at 91.44 93.98 0)
+			(at 107.95 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8111,7 +8119,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.376 89.408 0)
+			(at 103.886 89.408 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8122,7 +8130,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 87.63 0)
+			(at 107.95 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8133,7 +8141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 87.63 0)
+			(at 107.95 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8144,7 +8152,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 87.63 0)
+			(at 107.95 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11533,134 +11541,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 104.14 83.82 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f26e1b83-e570-4f08-82f3-63b6c9803a60")
-		(property "Reference" "D4"
-			(at 106.68 83.8199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMBJ6.0CA"
-			(at 106.68 85.0899 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 104.14 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 104.14 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "E"
-			(at 104.14 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C2925451"
-			(at 104.14 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Liown"
-			(at 104.14 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "SMBJ6.0CA"
-			(at 104.14 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0d8b29ab-6bb8-40b5-bbcf-ae7eff6fa962")
-		)
-		(pin "2"
-			(uuid "27c6cc03-4872-4740-be9a-d851846527db")
-		)
-		(instances
-			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 238.76 113.03 0)
 		(unit 1)
@@ -11802,85 +11682,6 @@
 			(project "s6tm-detect-cb-2"
 				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a"
 					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 104.14 87.63 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fe8f6833-e481-451f-bb92-da0ea403c4a9")
-		(property "Reference" "#PWR067"
-			(at 104.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.076 89.408 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "61bb83fa-3083-4c91-8bd9-05d405874311")
-		)
-		(instances
-			(project "s6tm-detect-cb-2"
-				(path "/f4a18219-a653-4da9-9eb6-662d05c28432/169cf3bf-dcdd-445b-abbd-86da239eca7a"
-					(reference "#PWR067")
 					(unit 1)
 				)
 			)
