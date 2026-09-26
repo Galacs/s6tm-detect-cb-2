@@ -723,6 +723,10 @@
       {
         "netclass": "SPI",
         "pattern": "/FLASH*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "D*"
       }
     ]
   },
@@ -933,7 +937,7 @@
         "uuid": "f4a18219-a653-4da9-9eb6-662d05c28432"
       }
     ],
-    "used_designators": "SW1-4,AE1,#FLG1-9,FID1-3,J1-10,Y1-2,#PWR1-136,L1-5,Q1-4,U1-19,D1-15,D22,C1-55,H1-7,BT1,R1-39,JP1,TP1-17",
+    "used_designators": "H1-7,U1-19,D1-15,D22,Q1-4,TP1-17,JP1,R1-39,BT1,SW1-4,AE1,C1-55,#FLG1-9,FID1-3,J1-10,Y1-2,#PWR1-136,L1-5",
     "variants": []
   },
   "sheets": [
