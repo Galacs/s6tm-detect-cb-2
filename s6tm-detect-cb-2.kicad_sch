@@ -15658,7 +15658,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C25087"
+		(property "JLCPCB Part #" "C8218"
 			(at 273.05 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -15680,7 +15680,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0402WGF2000TCE"
+		(property "Manufacturer Part Number" "0603WAF2000T5E"
 			(at 273.05 106.68 90)
 			(hide yes)
 			(show_name no)
