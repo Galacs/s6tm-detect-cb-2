@@ -10945,16 +10945,6 @@
 		)
 		(uuid "3dd69e44-bd34-44a8-9157-59da04844e07")
 	)
-	(label "CAN_RX"
-		(at 102.87 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "48ef9a97-655d-48e5-b839-d4aa0b2b0f74")
-	)
 	(label "FLASH_CLK"
 		(at 52.07 97.79 180)
 		(effects
@@ -10984,16 +10974,6 @@
 			(justify right bottom)
 		)
 		(uuid "5781f2e8-06f9-4ba7-8e9f-432e691f476c")
-	)
-	(label "CAN_TX"
-		(at 187.96 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "59707ea7-31ca-494f-bc20-488dc91d52bb")
 	)
 	(label "SCL"
 		(at 243.84 50.8 0)
@@ -11064,6 +11044,16 @@
 			(justify left bottom)
 		)
 		(uuid "738b3d3e-69d9-487f-8811-1696b3a85e02")
+	)
+	(label "CAN_TX"
+		(at 102.87 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79b9c800-a443-426b-abd9-396d08042d1f")
 	)
 	(label "FLASH_CLK"
 		(at 187.96 107.95 180)
@@ -11144,6 +11134,16 @@
 			(justify right bottom)
 		)
 		(uuid "a33aefde-de2a-4877-be89-8f198cd6031f")
+	)
+	(label "CAN_RX"
+		(at 187.96 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa329452-a8e3-4e4d-a411-7fa65b8e7507")
 	)
 	(label "RGB"
 		(at 187.96 120.65 180)
