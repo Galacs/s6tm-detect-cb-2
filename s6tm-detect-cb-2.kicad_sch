@@ -7822,8 +7822,16 @@
 		(uuid "669dc6e0-3c85-422d-bd83-d1c339bbbdf6")
 	)
 	(no_connect
+		(at 110.49 92.71)
+		(uuid "93998f46-f576-4fe7-a65e-b563acae3e78")
+	)
+	(no_connect
 		(at 110.49 115.57)
 		(uuid "c17a13a2-f8f2-4859-b9c6-29aebf761f33")
+	)
+	(no_connect
+		(at 110.49 95.25)
+		(uuid "d4599cee-a571-48f0-a499-8e5125d87f84")
 	)
 	(no_connect
 		(at 57.15 54.61)
@@ -11035,16 +11043,6 @@
 		)
 		(uuid "6f052edd-2cae-495a-9a93-8f86c9b443c1")
 	)
-	(label "PM_TX"
-		(at 99.06 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "738b3d3e-69d9-487f-8811-1696b3a85e02")
-	)
 	(label "CAN_TX"
 		(at 102.87 77.47 0)
 		(effects
@@ -11124,6 +11122,16 @@
 			(justify right bottom)
 		)
 		(uuid "9b85d347-0cfe-4e18-91ba-575d78ab72d6")
+	)
+	(label "PM_TX"
+		(at 99.06 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0f0c2e2-b273-46b5-b086-afa4d349c15b")
 	)
 	(label "BOOT"
 		(at 151.13 180.34 180)
@@ -11255,16 +11263,6 @@
 		)
 		(uuid "cbfc375e-36ac-4f25-b0c8-7d97d3076880")
 	)
-	(label "PM_RX"
-		(at 99.06 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd5b04ab-fa9f-4f01-9036-6811c1f2abe7")
-	)
 	(label "FLASH_CS"
 		(at 52.07 85.09 180)
 		(effects
@@ -11314,6 +11312,16 @@
 			(justify right bottom)
 		)
 		(uuid "dacf802c-a071-4ee6-aed9-e0faae6b038d")
+	)
+	(label "PM_RX"
+		(at 99.06 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dee53939-f4bb-4e21-8e8f-61e2b4bd108f")
 	)
 	(label "XTAL_P"
 		(at 102.87 85.09 0)
