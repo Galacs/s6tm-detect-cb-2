@@ -10,7 +10,7 @@
 	(title_block
 		(title "S6TM Detect Carrier 2")
 		(date "2026-09-27")
-		(rev "01")
+		(rev "02")
 		(company "Rémi Ait-Younes")
 	)
 	(layers
@@ -56374,7 +56374,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Rev 01"
+	(gr_text "Rev 02"
 		(at 155.75 115 0)
 		(layer "B.SilkS")
 		(uuid "a29e9628-008a-4346-a59e-f031d8169b52")

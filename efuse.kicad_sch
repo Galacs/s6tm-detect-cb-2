@@ -7,7 +7,7 @@
 	(title_block
 		(title "S6TM Detect Carrier 2")
 		(date "2026-09-24")
-		(rev "01")
+		(rev "02")
 		(company "Rémi Ait-Younes")
 	)
 	(lib_symbols
