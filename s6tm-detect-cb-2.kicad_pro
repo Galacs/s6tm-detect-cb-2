@@ -183,6 +183,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -194,6 +195,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -205,6 +207,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -511,6 +514,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -635,7 +639,7 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {},
     "netclass_assignments": {
       "GND": [
         "SIM"
@@ -652,19 +656,10 @@
       "Net-(J8-VCC)": [
         "SIM"
       ],
-      "Net-(U13-CLK_IN)": [
-        "SIM"
-      ],
       "Net-(U13-CLK_OUT)": [
         "SIM"
       ],
-      "Net-(U13-DATA1_IN)": [
-        "SIM"
-      ],
       "Net-(U13-DATA1_OUT)": [
-        "SIM"
-      ],
-      "Net-(U13-DATA2_IN)": [
         "SIM"
       ],
       "Net-(U13-DATA2_OUT)": [
@@ -946,7 +941,7 @@
         "uuid": "f4a18219-a653-4da9-9eb6-662d05c28432"
       }
     ],
-    "used_designators": "#FLG1-9,SW1-4,AE1,R1-39,FID1-3,Y1-2,#PWR1-136,J1-10,L1-5,Q1-4,U1-19,D1-15,D22,C1-59,H1-7,BT1,TP1-17,JP1",
+    "used_designators": "#FLG1-9,#PWR1-136,AE1,BT1,C1-59,D1-15,D22,FID1-3,H1-7,J1-10,JP1,L1-5,Q1-4,R1-39,SW1-4,TP1-17,U1-19,Y1-2",
     "variants": []
   },
   "sheets": [
